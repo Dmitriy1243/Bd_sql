@@ -1,0 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS test;
+USE test;
+
+
+CREATE TABLE klient (id BIGINT PRIMARY KEY AUTO_INCREMENT, name VARCHAR (80), balans VARCHAR(100));
+INSERT INTO klient (name, balans) VALUES ('Aliksey', '123456');
